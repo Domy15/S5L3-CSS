@@ -147,15 +147,23 @@ article p {
         flex-wrap: nowrap;
         border-radius: 0;
         margin: 0;
-        align-items: center;
+        padding: 0;
+        height: 7em;
     }
 
     nav div {
         flex-basis: 30%;
+        font-size: 0.75em;
+        margin-right: 1%;
+        margin-left: 1%;
     }
 
     .shop {
         flex-basis: 40%;
+    }
+
+    .shop h2 {
+        font-size: x-large;
     }
 
     #second {
@@ -182,5 +190,18 @@ article p {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .honey, .subDiv {
+        flex-basis: 45%;
+    }
+
+    .subDiv h2 {
+        font-size: large;
+    }
+
+    .honey button {
+        flex-basis: 10em;
     }
 }
