@@ -136,6 +136,43 @@ article p {
 }
 
 @media screen and (min-width: 576px) {
+    #container, nav {
+        padding: 0;
+    }
+
+    nav {
+        flex-wrap: nowrap;
+        border-radius: 0;
+    }
+
+    nav div {
+        flex-basis: 25%;
+    }
+
+    .shop {
+        flex-basis: 40%;
+    }
+
+    #second {
+        order: 1;
+    }
+
+    #third {
+        order: 2;
+    }
+
+    .shop {
+        order: 3;
+    }
+
+    #fourth {
+        order: 4;
+    }
+
+    #fifth {
+        order: 5;
+    }
+
     #containerCard {
         display: flex;
         flex-wrap: wrap;
