@@ -204,4 +204,13 @@ article p {
     .honey button {
         flex-basis: 10em;
     }
+
+    h1 {
+        text-align: left;
+    }
+
+    section h2 {
+        text-align: left;
+        font-size: 2em;
+    }
 }
